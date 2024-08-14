@@ -62,8 +62,8 @@ const Comment = ({
           <button onClick={handleEdit}>Save</button>
         ) : (
           <>
-            <button onClick={() => setIsEditing(true)}>Edit</button>
             <button onClick={() => setIsReplying(true)}>Reply</button>
+            <button onClick={() => setIsEditing(true)}>Edit</button>
           </>
         )}
       </div>
